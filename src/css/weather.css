@@ -83,8 +83,12 @@ body {
   background-color: #ffdf8c;
 }
 
-.pinnedRow td {
-  font-weight: bold;
+.weatherTable tr {
+  background-color: #fff;
+}
+
+.weatherTable tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
 
 button {
